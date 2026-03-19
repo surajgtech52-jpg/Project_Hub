@@ -1,0 +1,9 @@
+<?php
+// Database Configuration Template
+$host = "localhost";
+$user = "root";
+$pass = "YOUR_PASSWORD_HERE";
+$dbname = "campus_dine_db";
+
+$conn = new mysqli($host, $user, $pass, $dbname);
+?>
