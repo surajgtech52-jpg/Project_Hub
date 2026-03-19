@@ -28,6 +28,10 @@ Project Hub is a centralized web-based platform designed to automate and streaml
 * **`admin_transfer.php`**: Handles end-of-year student promotion and project archiving.
 * **`migration_launch_hardening.sql`**: Script for securing the database before production deployment.
 * **`bootstrap.php`**: Ensures only authorized users access specific dashboard roles.
+## 📂 Required Directory Permissions
+After downloading the project, ensure the following folders exist in the root directory and have **Write Permissions** enabled so the PHP scripts can store data:
+* `/logs`: Stores system activity and error tracking.
+* `/uploads`: Stores project documents and student submissions.
 
 ## 👤 Author
 * **Engineering Student** at A.P. Shah Institute of Technology (APSIT).
