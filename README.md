@@ -19,7 +19,7 @@ Project Hub is a centralized web-based platform designed to automate and streaml
 1. **Clone/Download**: Place the `Project-Hub` folder into your `htdocs` directory.
 2. **Database Import**: 
    * Create a database named `project_hub_db`.
-   * Import `/sql/project_hub_db_(6).sql` into phpMyAdmin.
+   * Import `/sql/project_hub_db.sql` into phpMyAdmin.
    * (Optional) Run `migration` scripts for additional feature hardening.
 3. **Configuration**: Update `core/db.php` or `core/config.php` with your local MySQL credentials.
 4. **Launch**: Open `http://localhost/Project-Hub/index.php` in your browser.
